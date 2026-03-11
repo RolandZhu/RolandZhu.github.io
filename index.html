@@ -3,7 +3,7 @@
     <head>
         <title>Xinghao Zhu</title>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=1000">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://use.typekit.net/quv7bsd.css"> <!-- fonts -->
         <link rel="stylesheet" href="./style.css" />
         <link rel="icon" type="image/x-icon" href="./images/people/favicon.png">
@@ -523,9 +523,9 @@
               repBtn.style.borderBottom = "1px solid #a4dfce";
               showAllBtn.style.color = "#191e3f";
               showAllBtn.style.borderBottom = "none";
-              var  = document.getElementsByClassName("");
-              for (var i = 0; i < .length; i++) {
-                .item(i).style.display = "none";
+              var nonRepItems = document.getElementsByClassName("nonRep");
+              for (var i = 0; i < nonRepItems.length; i++) {
+                nonRepItems.item(i).style.display = "none";
               }
             }
 
@@ -536,9 +536,9 @@
               repBtn.style.borderBottom = "none";
               showAllBtn.style.color = "#49bf9d";
               showAllBtn.style.borderBottom = "1px solid #a4dfce";
-              var  = document.getElementsByClassName("");
-              for (var i = 0; i < .length; i++) {
-                .item(i).style.display = "table";
+              var nonRepItems = document.getElementsByClassName("nonRep");
+              for (var i = 0; i < nonRepItems.length; i++) {
+                nonRepItems.item(i).style.display = "table";
               }
             }
         </script>
